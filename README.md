@@ -18,6 +18,7 @@ cp_client -m l -u ext-i.ivanov -i tun0 -s /root/vpn/vpnc-scripts/vpnc-script  vp
 
 ```
 
+'''
 GW url(host) is: vpn.russianpost.ru
 Checking SSL mode.
 SSL mode is: strict.
@@ -34,3 +35,4 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/cpyvpn-0.0.0-py3.11.egg/cpyvpn/auth.py", line 126, in do_login
   File "/usr/local/lib/python3.11/site-packages/cpyvpn-0.0.0-py3.11.egg/cpyvpn/auth.py", line 164, in _extract_ac
 Exception: Authentication error: Access denied - wrong user name or password  (code=101)
+'''
