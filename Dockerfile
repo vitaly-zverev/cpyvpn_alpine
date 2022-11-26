@@ -13,6 +13,7 @@ RUN echo "root:root" | chpasswd \
       openvpn \
       openssh \
       git \
+      nmap \
     && mkdir ${HOME}/vpn && cd ${HOME}/vpn  && git clone https://gitlab.com/cpvpn/cpyvpn.git .  && git checkout 1.5.3 && python3 setup.py install \
     && git clone https://gitlab.com/openconnect/vpnc-scripts.git \
     && mkdir  ${HOME}/.ssh
