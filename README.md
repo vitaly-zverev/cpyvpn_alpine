@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/vitaly-zverev/cpyvpn_alpine && cd cpyvpn_alpine
 
-docker build --force-rm -t cpyvpn_alpine .
+docker build --force-rm -t cpyvpn_alpine Docker
 
 docker run --rm -ti  \
  --cap-add=NET_ADMIN  \
