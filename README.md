@@ -1,5 +1,7 @@
 # cpyvpn_alpine
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vitaly-zverev/cpyvpn_alpine/HEAD?labpath=TryMeInBinder.ipynb)
+
 ```
 git clone https://github.com/vitaly-zverev/cpyvpn_alpine && cd cpyvpn_alpine
 
