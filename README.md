@@ -21,7 +21,7 @@ cp_client -m l -u ivanov.i -i tun0 -s /root/vpn/vpnc-scripts/vpnc-script  vpn.ex
 ```
 
 ```
-GW url(host) is: vpn.russianpost.ru
+GW url(host) is: vpn.example.ru
 Checking SSL mode.
 SSL mode is: strict.
 Please provide user name and password to authenticate
