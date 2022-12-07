@@ -15,7 +15,7 @@ docker run --rm -ti  \
  --dns=1.1.1.1 \
  --privileged=true \
 cpyvpn_alpine \
-cp_client -m l -u ext-i.ivanov -i tun0 -s /root/vpn/vpnc-scripts/vpnc-script  vpn.russianpost.ru
+cp_client -m l -u ivanov.i -i tun0 -s /root/vpn/vpnc-scripts/vpnc-script  vpn.example.ru
 
 
 ```
