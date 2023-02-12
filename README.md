@@ -12,7 +12,7 @@ docker run --rm -ti  \
  --device=/dev/net/tun \
  --name=cpyvpn_alpine \
  --dns=8.8.8.8 \
- --dns=1.1.1.1 \
+ --dns=8.8.4.4 \
  --privileged=true \
 cpyvpn_alpine \
 cp_client -m l -u ivanov.i -i tun0 -s /root/vpn/vpnc-scripts/vpnc-script  vpn.example.ru
