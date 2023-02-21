@@ -30,3 +30,8 @@ Standard login
 ....
 Exception: Authentication error: Access denied - wrong user name or password  (code=101)
 ```
+
+PS
+
+Recipe also applied for:
+https://shell.cloud.google.com/?show=ide%2Cterminal
