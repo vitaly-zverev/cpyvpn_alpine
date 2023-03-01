@@ -12,6 +12,7 @@ RUN echo "root:root" | chpasswd \
       openconnect \
       openvpn \
       openssh \
+      busybox-extras \
       git \
       nmap \
       bind-tools \
