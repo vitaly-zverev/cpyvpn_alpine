@@ -49,3 +49,21 @@ PS
 
 Recipe also applied for:
 https://shell.cloud.google.com/?show=ide%2Cterminal
+
+
+ docker scan  vzverev/cpyvpn_alpine
+Docker Scan relies upon access to Snyk, a third party provider, do you consent to proceed using Snyk? (y/N)
+y
+
+Testing vzverev/cpyvpn_alpine...
+
+Package manager:   apk
+Project name:      docker-image|vzverev/cpyvpn_alpine
+Docker image:      vzverev/cpyvpn_alpine
+Platform:          linux/amd64
+Base image:        python:3.11.2-alpine3.17
+
+✔ Tested 92 dependencies for known vulnerabilities, no vulnerable paths found.
+
+According to our scan, you are currently using the most secure version of the selected base image
+
