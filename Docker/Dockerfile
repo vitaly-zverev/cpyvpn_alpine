@@ -1,4 +1,4 @@
-FROM  python:alpine3.16
+FROM  python:alpine3.17
 LABEL maintainer="Vitaly Zverev"
 
 # Set language to avoid bugs that sometimes appear
